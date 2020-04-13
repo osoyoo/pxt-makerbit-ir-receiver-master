@@ -5,45 +5,45 @@ const enum IrButton {
   //% block="any"
   Any = -1,
   //% block="▲"
-  Up = 0x62,
+  Up = 0x18,
   //% block=" "
   Unused_2 = -2,
   //% block="◀"
-  Left = 0x22,
+  Left = 0x8,
   //% block="OK"
-  Ok = 0x02,
+  Ok = 0x1c,
   //% block="▶"
-  Right = 0xc2,
+  Right = 0x5a,
   //% block=" "
   Unused_3 = -3,
   //% block="▼"
-  Down = 0xa8,
+  Down = 0x52,
   //% block=" "
   Unused_4 = -4,
   //% block="1"
-  Number_1 = 0x68,
+  Number_1 = 0x45,
   //% block="2"
-  Number_2 = 0x98,
+  Number_2 = 0x46,
   //% block="3"
-  Number_3 = 0xb0,
+  Number_3 = 0x47,
   //% block="4"
-  Number_4 = 0x30,
+  Number_4 = 0x44,
   //% block="5"
-  Number_5 = 0x18,
+  Number_5 = 0x40,
   //% block="6"
-  Number_6 = 0x7a,
+  Number_6 = 0x43,
   //% block="7"
-  Number_7 = 0x10,
+  Number_7 = 0x7,
   //% block="8"
-  Number_8 = 0x38,
+  Number_8 = 0x15,
   //% block="9"
-  Number_9 = 0x5a,
+  Number_9 = 0x9,
   //% block="*"
-  Star = 0x42,
+  Star = 0x16,
   //% block="0"
-  Number_0 = 0x4a,
+  Number_0 = 0x19,
   //% block="#"
-  Hash = 0x52
+  Hash = 0xd
 }
 
 const enum IrButtonAction {
@@ -199,23 +199,23 @@ namespace makerbit {
     if (!irState) {
       irState = {
         necIr: new NecIr([
-          0x62,
-          0x22,
-          0x02,
-          0xc2,
-          0xa8,
-          0x68,
-          0x98,
-          0xb0,
-          0x30,
           0x18,
-          0x7a,
-          0x10,
-          0x38,
+          0x8,
+          0x1c,
           0x5a,
-          0x42,
-          0x4a,
-          0x52
+          0x52,
+          0x45,
+          0x46,
+          0x47,
+          0x44,
+          0x40,
+          0x43,
+          0x7,
+          0x15,
+          0x9,
+          0x16,
+          0x19,
+          0xd
         ]),
         activeCommand: 0
       };
