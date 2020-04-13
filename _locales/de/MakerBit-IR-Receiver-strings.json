@@ -27,7 +27,7 @@
   "makerbit.isIrButtonPressed|block": "IR Taste | %button | wird gedrückt",
   "makerbit.onIrButton|block": "wenn IR Taste | %button | %action",
   "makerbit.pressedIrButton|block": "IR Taste",
-  "makerbit|block": "MakerBit",
-  "{id:category}Makerbit": "Makerbit",
+  "makerbit|block": "OSOYOO IR",
+  "{id:category}OSOYOO IR": "OSOYOO IR",
   "{id:subcategory}IR Remote": "IR Empfänger"
 }
